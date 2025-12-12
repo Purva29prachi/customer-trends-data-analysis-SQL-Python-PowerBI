@@ -4,7 +4,7 @@ End-to-end customer shopping behaviour analysis using Python, SQL and Power BI. 
 # 🛍️ Customer Shopping Behaviour Analysis  
 **End-to-End Data Analytics Project using Python, SQL & Power BI**
 
-This repository contains a complete data analytics project that simulates a real-world business workflow to analyze customer purchasing behaviour and uncover actionable insights from sales data. The goal is to translate raw data into meaningful business intelligence that can support data-driven decision-making. :contentReference[oaicite:0]{index=0}
+This repository contains a complete data analytics project that simulates a real-world business workflow to analyze customer purchasing behaviour and uncover actionable insights from sales data. The goal is to translate raw data into meaningful business intelligence that can support data-driven decision-making. 
 
 ---
 
@@ -31,6 +31,32 @@ The main objective of this project is to analyze retail sales data to understand
 
 ---
 
+## 🧠 Key Features
+
+### 🧹 Python (Data Cleaning & Analysis)
+- Import and explore raw dataset using `pandas`
+- Removed duplicates and handled missing values
+- Feature engineering (e.g., age groups, purchase frequency)
+- Export cleaned data to SQL for further analysis
+
+### 🗄️ SQL (Data Extraction & Insights)
+- Loaded cleaned data into a database (MySQL/PostgreSQL/etc.)
+- Answered business questions using SQL queries
+- Extracted insights like:
+  - Top-selling products
+  - Revenue by customer segment
+  - Impact of discounts on revenue
+ 
+### 📊 Power BI (Visual Insights)
+- Interactive dashboard with insights on:
+  - Revenue by category
+  - Sales by demographic groups
+  - Trends over time
+  - Filters for deeper insights
+
+---
+
+
 ## 🧠 Tools & Technologies Used
 
 | Tool | Purpose |
@@ -39,6 +65,6 @@ The main objective of this project is to analyze retail sales data to understand
 | SQL | Querying and extracting insights |
 | Power BI | Dashboard & visual reporting |
 | Jupyter Notebook | Interactive analysis |
-| GitHub | Version control & portfolio showcase |
+
 
 ---
